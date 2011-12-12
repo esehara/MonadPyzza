@@ -9,7 +9,7 @@ It is be able to "Monad" in Python.
 
 Please see `src/use_monad.py` :)
 
-```
+```python
 def not_monad_test(test_str):
     if not people_data.has_key(test_str):
         print "Not Find"
@@ -41,6 +41,7 @@ maybe.JT___(5) #Also
 ```python
 test = lambda x:("Just",x + 1)
 maybe.bind(test,("Just",5))
+maybe.BD___(test,("Just",5))
 ```
 
 ##License?
